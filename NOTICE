@@ -1,0 +1,67 @@
+asset-vla
+Copyright 2026 MacPaw
+
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use
+this file except in compliance with the License. You may obtain a copy of the
+License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software distributed
+under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR
+CONDITIONS OF ANY KIND, either express or implied.
+
+================================================================================
+Third-party components
+================================================================================
+
+--------------------------------------------------------------------------------
+openpi — Physical Intelligence
+https://github.com/Physical-Intelligence/openpi
+License: Apache License 2.0
+--------------------------------------------------------------------------------
+
+This product includes software developed by Physical Intelligence. Substantial
+portions of this repository are derived from openpi, specifically:
+
+  src/asset_vla/transforms.py          data transform pipeline
+  src/asset_vla/shared/normalize.py    normalization statistics
+  src/asset_vla/shared/array_typing.py array type annotations
+  src/asset_vla/shared/image_tools.py  image resizing
+  src/asset_vla/training/config.py     training configuration system
+  src/asset_vla/training/data_loader.py  data loading scaffolding
+  src/asset_vla/model/observation.py   observation container
+
+The openpi client package (`openpi-client`) is used as a dependency and remains
+under its own copyright and license.
+
+A copy of the Apache License 2.0 governing this material is included as LICENSE.
+
+--------------------------------------------------------------------------------
+Xiaomi-Robotics-0 — Xiaomi
+https://github.com/XiaomiRobotics/Xiaomi-Robotics-0
+Model weights: https://huggingface.co/XiaomiRobotics/Xiaomi-Robotics-0-Pretrain
+License: see upstream repository and model card
+--------------------------------------------------------------------------------
+
+The vision-language-action backbone is adapted from Xiaomi-Robotics-0. Pretrained
+weights are downloaded at runtime from the Hugging Face model repository above and
+are not redistributed here. Use of those weights is subject to the license and
+terms published by Xiaomi with the model; consult the upstream repository and
+model card before redistribution or commercial use.
+
+--------------------------------------------------------------------------------
+PartVerse-XL (FullPart) / Objaverse-XL
+https://arxiv.org/abs/2510.26140
+https://objaverse.allenai.org/
+License: see upstream dataset terms; individual 3D assets carry their own,
+varying licenses assigned by their original creators
+--------------------------------------------------------------------------------
+
+The datasets released with this work are derived from PartVerse-XL, introduced in
+"FullPart: Generating Each 3D Part at Full Resolution" (Ding et al., 2025), which
+is itself derived from Objaverse-XL. The derived datasets are published at:
+
+  https://huggingface.co/datasets/macpaw-research/asset-alignment-pairs-905k
+  https://huggingface.co/datasets/macpaw-research/asset-alignment-reference-views
+
