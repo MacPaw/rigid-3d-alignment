@@ -13,6 +13,7 @@ so the learned rotation is decoupled from the global displacement.
 This repository contains the **feed-forward Vision–Language–Action (VLA)** predictor, which
 regresses $\tau$ in a single sub-second forward pass.
 
+![VLA Pipeline Architecture](https://github.com/user-attachments/assets/a0d9437a-d4e1-425a-8f01-0e8e7141a3f4)
 ## Two pipelines
 
 Both are the same model and the same training script; they differ only in whether the prompt
