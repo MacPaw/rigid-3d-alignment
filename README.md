@@ -1,4 +1,5 @@
 # Rigid 3D Object Alignment: Optimization vs. Feed-Forward Prediction
+[![Paper](https://img.shields.io/badge/Paper-ECCV%202026%20OpenSUN3D-b31b1b?style=for-the-badge&logo=readthedocs&logoColor=white)](https://research.macpaw.com/publications/3d-alignment)
 
 Code for *Rigid 3D Object Alignment: Optimization vs. Feed-Forward Prediction*.
 
@@ -118,7 +119,7 @@ normalized translation error, geodesic rotation error in degrees, ADD-S with acc
 of object diameter, and Chamfer distance.
 #### Getting the meshes
 
-The meshes live in `meshes.tar` in the main dataset repo and come to **~1.9 TB extracted**
+The meshes live in `meshes.tar` in the main dataset repo and come to **~1.2 TB extracted**
 
 ### Recomputing normalization statistics
 
